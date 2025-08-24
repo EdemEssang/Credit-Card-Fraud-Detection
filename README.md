@@ -12,3 +12,6 @@ This is a repository hosting the  Capstone Project for group 7 members in Hagita
 a) Real-time fraud alerts.
 b) Fraud frequency by merchant/location.
 c) Monthly fraud trend chart.
+
+##### Authors:
+
