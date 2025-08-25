@@ -15,15 +15,16 @@ c) Monthly fraud trend chart.
 
 ##### Authors:
 
-CAPSTONE PROJECT FOR GROUP7 & Challenges Encountered
-Task: Credit Card Fraud Detection (Finance) 
-Duration: Two weeks (15th August 2025 – 27th August 2025)
+# CAPSTONE PROJECT FOR GROUP7 & Challenges Encountered
+# Task: Credit Card Fraud Detection (Finance) 
+# Duration: Two weeks (15th August 2025 – 27th August 2025)
 
  Challenges Encountered During Project
 1. Handling Duplicates in the Dataset
-•	Issue: Unsure whether duplicate rows with Class = 0 or Class = 1 represented legitimate or fraudulent transactions.
-•	Challenge: Deciding whether to drop or keep duplicates since they might reflect real repeated purchases or fraud attempts.
-•	Solution: After careful consideration we decided dropping the duplicates because it doesn't cause any bias in our analysis
+   
+#	Issue: Unsure whether duplicate rows with Class = 0 or Class = 1 represented legitimate or fraudulent transactions.
+#	Challenge: Deciding whether to drop or keep duplicates since they might reflect real repeated purchases or fraud attempts.
+#	Solution: After careful consideration we decided dropping the duplicates because it doesn't cause any bias in our analysis
 
 ________________________________________
 2. Anomaly Detection Method Selection
