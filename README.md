@@ -22,42 +22,42 @@ c) Monthly fraud trend chart.
  Challenges Encountered During Project
 1. Handling Duplicates in the Dataset
    
-#	Issue: Unsure whether duplicate rows with Class = 0 or Class = 1 represented legitimate or fraudulent transactions.
-#	Challenge: Deciding whether to drop or keep duplicates since they might reflect real repeated purchases or fraud attempts.
-#	Solution: After careful consideration we decided dropping the duplicates because it doesn't cause any bias in our analysis
+####	Issue: Unsure whether duplicate rows with Class = 0 or Class = 1 represented legitimate or fraudulent transactions.
+#### Challenge: Deciding whether to drop or keep duplicates since they might reflect real repeated purchases or fraud attempts.
+####	Solution: After careful consideration we decided dropping the duplicates because it doesn't cause any bias in our analysis
 
 ________________________________________
 2. Anomaly Detection Method Selection
-•	Issue: Needed to implement anomaly detection for fraud.
-•	Challenge: Choosing an appropriate statistical approach.
-•	Solution: Applied Z-score on transaction amounts to identify abnormal transactions and flagged them as potential fraud.
+####	Issue: Needed to implement anomaly detection for fraud.
+####	Challenge: Choosing an appropriate statistical approach.
+####	Solution: Applied Z-score on transaction amounts to identify abnormal transactions and flagged them as potential fraud.
 ________________________________________
 3. Explaining the columns names 
-•	Issue: The column names were represented as v1, v2, v3.....v28
-•	Challenge: It was not descriptive and might be confusing.
-•	Solution: Renamed the columns to reflect it purpose which is spending_ patterns.
+####	Issue: The column names were represented as v1, v2, v3.....v28
+####	Challenge: It was not descriptive and might be confusing.
+####	Solution: Renamed the columns to reflect it purpose which is spending_ patterns.
 ________________________________________
 4. Choosing a Transaction ID / Merchant ID
-•	Issue: The original Kaggle dataset lacked a clear unique identifier for each transaction.
-•	Challenge: Needed an ID field to store and reference transactions in Postgres and Merchant ID
-•	Solution: Created transaction_id (auto-increment in Postgres) to serve as a unique key. And we created merchant location. 
+####	Issue: The original Kaggle dataset lacked a clear unique identifier for each transaction.
+####	Challenge: Needed an ID field to store and reference transactions in Postgres and Merchant ID
+####	Solution: Created transaction_id (auto-increment in Postgres) to serve as a unique key. And we created merchant location. 
 ________________________________________
 5. Simulating Merchant & Location Data
-•	Issue: Kaggle dataset did not include merchants or locations.
-•	Challenge: Needed these fields for realistic fraud trend analysis and Grafana dashboards.
-•	Solution: Simulated merchant_name, merchant_location, and later considered merchant_id for normalization.
+####	Issue: Kaggle dataset did not include merchants or locations.
+####	Challenge: Needed these fields for realistic fraud trend analysis and Grafana dashboards.
+####	Solution: Simulated merchant_name, merchant_location, and later considered merchant_id for normalization.
 ________________________________________
 6. Grafana Integration Challenges
-•	Issue: Dataset was not real-time and Grafana is built for monitoring live streams.
-•	Challenge: Needed a way to represent fraud frequency by merchant, location and monthly trends from a static dataset.
-•	Solution: Loaded transformed Postgres tables into Grafana and simulated real-time queries by grouping transactions (fraud by merchant, fraud by month, fraud frequency).
+####	Issue: Dataset was not real-time and Grafana is built for monitoring live streams.
+####	Challenge: Needed a way to represent fraud frequency by merchant, location and monthly trends from a static dataset.
+####	Solution: Loaded transformed Postgres tables into Grafana and simulated real-time queries by grouping transactions (fraud by merchant, fraud by month, fraud frequency).
 ________________________________________
 7. Boolean vs Integer Class Field
-•	Issue: Kaggle dataset used Class column (0 = normal, 1 = fraud).
-•	Challenge: Deciding whether to keep as integers or convert to boolean.
-•	Solution: Converted to BOOLEAN for readability, whereby 0 represents True and 1 represents False Transactions respectively.
+####	Issue: Kaggle dataset used Class column (0 = normal, 1 = fraud).
+####	Challenge: Deciding whether to keep as integers or convert to boolean.
+####	Solution: Converted to BOOLEAN for readability, whereby 0 represents True and 1 represents False Transactions respectively.
 ________________________________________
 8. Team Collaboration & Documentation
-•	Issue: Team members had different technical backgrounds.
-•	Challenge: Out of six(6) Team members assigned for this project, just four(4) were actively available for collaboration and brainstorming. We needed a consistent way to share reasoning, decisions, and queries.
-•	Solution: We decide to stick with discord platform a professional platform, to avoid distractions from whatsapp. Discord is indeed more professional when it comes to team work. Making use of voice notes and sharing  and comparing notes. We Added inline comments in Python/SQL, structured explanations, and finally a GitHub README to document the project journey.
+####	Issue: Team members had different technical backgrounds.
+####	Challenge: Out of six(6) Team members assigned for this project, just four(4) were actively available for collaboration and brainstorming. We needed a consistent way to share reasoning, decisions, and queries.
+####	Solution: We decide to stick with discord platform a professional platform, to avoid distractions from whatsapp. Discord is indeed more professional when it comes to team work. Making use of voice notes and sharing  and comparing notes. We Added inline comments in Python/SQL, structured explanations, and finally a GitHub README to document the project journey.
