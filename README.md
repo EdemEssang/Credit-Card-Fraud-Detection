@@ -61,3 +61,11 @@ ________________________________________
 ####	Issue: Team members had different technical backgrounds.
 ####	Challenge: Out of six(6) Team members assigned for this project, just four(4) were actively available for collaboration and brainstorming. We needed a consistent way to share reasoning, decisions, and queries.
 ####	Solution: We decide to stick with discord platform a professional platform, to avoid distractions from whatsapp. Discord is indeed more professional when it comes to team work. Making use of voice notes and sharing  and comparing notes. We Added inline comments in Python/SQL, structured explanations, and finally a GitHub README to document the project journey.
+________________________________________
+9. Files and description
+####	ipynb: We created three tables in the cause of this project through ETL process which are transaction, merchants, and flaggedalert tables to help us identify and solve the challenges facing the creditcard organisation and they are represented as (for juypternote: creditcard.ipynb, merchant.ipynb, and flaggedalert.ipynb, and PostgresSQL query: creditcard.sql(transaction.csv), merchants.sql, and fraud_alert.sql)
+####	Challenge: We were expected show solve these challenges ((a) Real-time fraud alerts. (b) Fraud frequency by merchant/location. (c) Monthly fraud trend chart.) and represent it on a Grafana dashborad
+####	Solution: The solutions to above challenges were represented in a csv, sql, and png format for dashboard display and links to the dashborads as follows (1. https://snapshots.raintank.io/dashboard/snapshot/IuJ3fCOzFjhndXKmdMOLHmVQYXAm8C4m
+The Grafana dashboard for Real-time Fraud Alert  2. https://snapshots.raintank.io/dashboard/snapshot/7W5muKmeK93e0Ba5rjEjvX09flLB4cwS
+The Grafana dashboard for fraud frequency 3. https://snapshots.raintank.io/dashboard/snapshot/dnZEZJZYg0VJtHf0kklgNwLZX96DKZ9u
+The Grafana Dashboard for Monthly fraud trend chart) and with these solutions the creditcard organisation can detect where the fraud is occuring and save their organisation from losing incomes. 
