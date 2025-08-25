@@ -13,7 +13,7 @@ a) Real-time fraud alerts.
 b) Fraud frequency by merchant/location.
 c) Monthly fraud trend chart.
 
-##### Authors:
+
 
 # CAPSTONE PROJECT FOR GROUP7 & Challenges Encountered
 # Task: Credit Card Fraud Detection (Finance) 
@@ -69,3 +69,31 @@ ________________________________________
 The Grafana dashboard for Real-time Fraud Alert  2. https://snapshots.raintank.io/dashboard/snapshot/7W5muKmeK93e0Ba5rjEjvX09flLB4cwS
 The Grafana dashboard for fraud frequency 3. https://snapshots.raintank.io/dashboard/snapshot/dnZEZJZYg0VJtHf0kklgNwLZX96DKZ9u
 The Grafana Dashboard for Monthly fraud trend chart) and with these solutions the creditcard organisation can detect where the fraud is occuring and save their organisation from losing incomes. 
+
+##### Authors:
+###### 1. Dave Edward
+Role:
+Team Lead / Project Coordinator.
+Oversee project flow, coordinate communication, ensure tasks are completed on schedule, integrate all components, liaise with tutors/mentors.
+###### 2. Eyo Ephraim:
+Role:
+Data Acquisition & Ingestion Engineer.
+Source datasets (CSV, DB), write extraction scripts, store raw data in staging, document data sources.
+###### 3. Edem Ukoh:
+Role:
+Data Cleaning & Transformation Engineer
+Handle missing values, duplicates, formatting; standardize formats; apply aggregations, joins, derived columns; write transformation scripts.
+###### 4. Iiori Emmanuel:
+Role:
+Data Storage & Database Engineer
+Design schema, create/manage database (SQL/NoSQL), optimize queries, ensure indexing and data integrity.
+###### 5. Samuel Samuel Ojeka
+Role:
+Data Pipeline & Automation Engineer
+Build ETL/ELT pipelines  automate ingestion & transformation, monitor and fix pipeline issues.
+###### 6. Mawufemor Damalie
+Role: 
+Reporting, Visualization & Documentation Engineer.
+Create dashboards/reports (Grafana/Python), prepare final documentation, presentation slides for capstone defense.
+
+[This is a link to a detailed Activities and dates of the project:](https://docs.google.com/spreadsheets/d/1QE0w0iqAjkaY-yN7dup29UFVSLCGx19I/edit?usp=sharing&ouid=116708216449213152697&rtpof=true&sd=true)
