@@ -68,7 +68,9 @@ ________________________________________
 ####	Solution: The solutions to above challenges were represented in a csv, sql, and png format for dashboard display and links to the dashborads as follows (1. https://snapshots.raintank.io/dashboard/snapshot/IuJ3fCOzFjhndXKmdMOLHmVQYXAm8C4m
 The Grafana dashboard for Real-time Fraud Alert  2. https://snapshots.raintank.io/dashboard/snapshot/7W5muKmeK93e0Ba5rjEjvX09flLB4cwS
 The Grafana dashboard for fraud frequency 3. https://snapshots.raintank.io/dashboard/snapshot/dnZEZJZYg0VJtHf0kklgNwLZX96DKZ9u
-The Grafana Dashboard for Monthly fraud trend chart) and with these solutions the creditcard organisation can detect where the fraud is occuring and save their organisation from losing incomes. 
+The Grafana Dashboard for Monthly fraud trend chart) and with these solutions the creditcard organisation can detect where the fraud is occuring and save their organisation from losing incomes.
+
+![image alt](https://github.com/EdemEssang/Credit-Card-Fraud-Detection/blob/233f70ebc6cce5ae1e64b191173602bb0ebd75b3/Screenshot%202025-08-25%20090907.png)
 
 ##### Authors:
 ###### 1. Dave Edward
