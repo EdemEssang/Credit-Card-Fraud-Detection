@@ -103,3 +103,18 @@ Reporting, Visualization & Documentation Engineer.
 Create dashboards/reports (Grafana/Python), prepare final documentation, presentation slides for capstone defense.
 
 [This is a link to a detailed Activities and dates of the project:](https://docs.google.com/spreadsheets/d/1QE0w0iqAjkaY-yN7dup29UFVSLCGx19I/edit?usp=sharing&ouid=116708216449213152697&rtpof=true&sd=true)
+
+
+# Lessons Learnt
+During the course of this capstone project, several lessons were learnt each of them shaping our understanding and approach to solving real-world problems. Many of these lessons proved invaluable, not only in strengthening our technical skills but also in deepening our collaboration, team spirit, problem-solving mindset, and ability to adapt to challenges.
+
+1.	The importance of data preprocessing
+o	We learnt that cleaning data (handling duplicates, missing values, and creating unique IDs) is as critical as building models. A well-prepared dataset prevents errors downstream.
+2.	Explaining technical methods clearly matters
+o	Using Z-score for anomaly detection worked, but the real value came from breaking down the logic in simple terms so that all team members could understand and contribute.
+3.	Database schema design is key for analytics
+o	Introducing a proper transaction_id, merchant_id, and separating merchants from transactions showed us how much schema design impacts query efficiency and dashboard insights.
+4.	Visualization tools need the right data structure
+o	Grafana required data aggregated in a certain way (fraud by merchant, fraud trends by month). We learnt that dashboards are only as useful as the way data is transformed and stored.
+5.	Team collaboration improves problem-solving
+o	Different backgrounds in the team meant different perspectives. Challenges like deciding on boolean vs integer fraud labels or resolving SQL errors became learning opportunities when we discussed them together.
