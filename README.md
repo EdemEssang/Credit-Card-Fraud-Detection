@@ -72,6 +72,8 @@ The Grafana Dashboard for Monthly fraud trend chart) and with these solutions th
 
 ![image alt](https://github.com/EdemEssang/Credit-Card-Fraud-Detection/blob/233f70ebc6cce5ae1e64b191173602bb0ebd75b3/Screenshot%202025-08-25%20090907.png)
 
+![image alt](https://github.com/EdemEssang/Credit-Card-Fraud-Detection/blob/aeb5483962bc0f1d1495afaff81295a8dd3bfbb5/Screenshot%202025-08-25%20095108.png)
+
 ##### Authors:
 ###### 1. Dave Edward
 Role:
