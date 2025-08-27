@@ -101,6 +101,9 @@ Build ETL/ELT pipelines  automate ingestion & transformation, monitor and fix pi
 Role: 
 Reporting, Visualization & Documentation Engineer.
 Create dashboards/reports (Grafana/Python), prepare final documentation, presentation slides for capstone defense.
+###### 7. Adebola Adenusi
+Documentstion Engineer.
+Worked on the PowerPoint Presentstion.
 
 [This is a link to a detailed Activities and dates of the project:](https://docs.google.com/spreadsheets/d/1QE0w0iqAjkaY-yN7dup29UFVSLCGx19I/edit?usp=sharing&ouid=116708216449213152697&rtpof=true&sd=true)
 
